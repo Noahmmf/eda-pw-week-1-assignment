@@ -1,12 +1,23 @@
 /* Give your page a fun background color */
-Body {background-color:steelblue;}
+Body {background-color:steelblue;
+    margin:0; 
+    padding:0;}
 /* Make the header and footer a different color from the background */
-header {color:midnightblue;}
-footer {color:wheat;}
+header {color:midnightblue;
+background-color: darkslateblue;
+margin:0; 
+padding:0;
+height:100px;
+}
+footer {color:wheat;
+background-color: darkslateblue;
+margin:0; 
+padding:0;
+height: 25vh;}
 /* Align the h1 containing your name in the center of the header*/
 h1{text-align: center;}
 /* Make your p tag a different color and italic */
-p{color:rgb(179, 47, 47);
+p{color:rgb(127, 149, 4);
 font-style: italic;}
 /* Put a border around your image */
 img {border: 10px solid #727070;}
